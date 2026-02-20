@@ -19,6 +19,3 @@ class CleanUpFile:
         if os.path.exists(self.filename):
             os.remove(self.filename)
         return False
-
-
-
